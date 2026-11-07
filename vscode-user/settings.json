@@ -1,0 +1,135 @@
+{
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, IndentWidth: 4, TabWidth: 4, UseTab: Never, ColumnLimit: 0, }",
+  "chat.disableAIFeatures": true,
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "chat.titleBar.signIn.enabled": false,
+  "chat.viewSessions.orientation": "stacked",
+  "cmake.showConfigureWithDebuggerNotification": false,
+  "cmake.autoDetectSourceDirectory": false,
+  "debug.console.historySuggestions": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "block",
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on",
+    "strings": "on"
+  },
+  "editor.stickyScroll.enabled": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "files.autoGuessEncoding": true,
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.autorefresh": true,
+  "git.confirmSync": false,
+  "git.openAfterClone": "whenNoFolderOpen",
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.gitProtocol": "ssh",
+  "go.toolsManagement.autoUpdate": true,
+  "json.schemaDownload.enable": false,
+  "makefile.configureOnOpen": true,
+  "redhat.telemetry.enabled": false,
+  "remote.SSH.configFile": "~/.ssh/config",
+  "remote.autoForwardPorts": false,
+  "scm.defaultViewMode": "tree",
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.startupPrompt": "never",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.initialHint": false,
+  "terminal.integrated.shellIntegration.history": 0,
+  "update.showReleaseNotes": false,
+  "window.restoreWindows": "none",
+  "workbench.browser.showInTitleBar": true,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "[c]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[cpp]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[lua]": {
+    "editor.defaultFormatter": "sumneko.lua"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "explorer.confirmPasteNative": false,
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hans": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "cmake.configureOnOpen": false,
+  "python.createEnvironment.trigger": "off",
+  "workbench.editorAssociations": {
+    "*.zip": "zip.redirectToTree",
+    "*.vsix": "zip.redirectToTree"
+  },
+  "python.languageServer": "Default",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash",
+      "icon": "terminal-git-bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}
