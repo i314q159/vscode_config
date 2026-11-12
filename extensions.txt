@@ -48,7 +48,3 @@ sumneko.lua
 tamasfe.even-better-toml
 tencent-cloud.coding-copilot
 timonwong.shellcheck
-vscjava.vscode-java-debug
-vscjava.vscode-java-dependency
-vscjava.vscode-maven
-vscjava.vscode-spring-initializr
