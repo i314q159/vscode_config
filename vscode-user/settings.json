@@ -32,6 +32,8 @@
   "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": true,
   "files.autoGuessEncoding": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
