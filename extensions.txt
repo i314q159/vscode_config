@@ -46,5 +46,4 @@ rpinski.shebang-snippets
 rust-lang.rust-analyzer
 sumneko.lua
 tamasfe.even-better-toml
-tencent-cloud.coding-copilot
 timonwong.shellcheck

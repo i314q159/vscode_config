@@ -32,7 +32,6 @@
   "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": true,
   "files.autoGuessEncoding": true,
-  "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
@@ -97,6 +96,9 @@
   },
   "cmake.configureOnOpen": false,
   "python.createEnvironment.trigger": "off",
+  "python.defaultInterpreterPath": "C:\\Program Files\\Python315\\python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.venvPath": "${workspaceFolder}",
   "workbench.editorAssociations": {
     "*.zip": "zip.redirectToTree",
     "*.vsix": "zip.redirectToTree"
@@ -109,6 +111,7 @@
     "--profile",
     "black"
   ],
+  "rust-analyzer.server.path": "C:\\Users\\i314q159\\AppData\\Local\\Microsoft\\WinGet\\Links\\rust-analyzer.exe",
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.insertSpaces": true,
