@@ -95,7 +95,8 @@
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "cmake.configureOnOpen": false,
-  "python.createEnvironment.trigger": "off",
+  "python-envs.alwaysUseUv": false,
+  "python.createEnvironment.trigger": "prompt",
   "python.defaultInterpreterPath": "C:\\Program Files\\Python315\\python.exe",
   "python.terminal.activateEnvironment": true,
   "python.venvPath": "${workspaceFolder}",
